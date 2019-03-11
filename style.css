@@ -1,20 +1,37 @@
-body{
-    width: 600px;
+body {
+    width: 100%;
+    max-width: 1024px;
     background-color: bisque;
     margin: 0 auto;
 }
 
-.foto{
-
+.foto {
     width: 200px;
     height: 200px;
     float:left;
     margin: 7px 7px 7px 0;
 }
-header{
+
+header {
     text-align: center;
     background: white;
 }
-text{
-    margin: top 200px;
+.text {
+    position: absolute;
+    top: 290px;
+    background: rgb(221, 207, 143);
+}
+
+.text::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 2px;
+    background: black;
+}
+
+.list{
+    background: rgb(137, 137, 207);
 }
