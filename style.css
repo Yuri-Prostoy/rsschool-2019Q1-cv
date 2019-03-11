@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    background: bisque;
+    margin: 0 auto;
+}
+.photo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin: 7px 7px 7px 0;
+    
+}
+
+header {
+    text-align: center;
+    background: white;
+}
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    margin-top: 100px;
+}
