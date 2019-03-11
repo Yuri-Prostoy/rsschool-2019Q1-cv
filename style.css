@@ -1,0 +1,10 @@
+body{
+    width: 1024px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+}
