@@ -1,13 +1,13 @@
 body {
     width: 100%;
     max-width: 1024px;
-    background-color: bisque;
+    background: bisque;
     margin: 0 auto;
 }
 .photo{
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    width: 40em;
 }
 
 .foto {
@@ -25,12 +25,6 @@ header {
 .text {
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
-    background: rgb(221, 207, 143);
-}
-
-
-
-.list{
-    background: rgb(137, 137, 207);
+    width: 40em;
+    margin-top: 100px;
 }
