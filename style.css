@@ -4,12 +4,18 @@ body {
     background-color: bisque;
     margin: 0 auto;
 }
+.photo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
 
 .foto {
     width: 200px;
     height: 200px;
     float:left;
     margin: 7px 7px 7px 0;
+    
 }
 
 header {
@@ -17,20 +23,13 @@ header {
     background: white;
 }
 .text {
-    position: absolute;
-    top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
     background: rgb(221, 207, 143);
 }
 
-.text::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1024px;
-    height: 2px;
-    background: black;
-}
+
 
 .list{
     background: rgb(137, 137, 207);
